@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SFDC_TestV1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.SFDC_Bajaj.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="SFDCLogin Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.SFDC_Bajaj.testCases.TC_LoginTest_002">
+        <methods>
+          <include name="setup"/>
+          <include name="loginDDT" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SFDC_Bajaj.testCases.TC_LoginTest_002 -->
+    </classes>
+  </test> <!-- SFDCLogin Test(failed) -->
+</suite> <!-- Failed suite [SFDC_TestV1] -->

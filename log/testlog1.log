@@ -1,0 +1,13 @@
+2022-03-24 10:30:04,866 [main] INFO SFDC_TestV1 - URL is Opened
+2022-03-24 10:30:10,596 [main] INFO SFDC_TestV1 - Username Entered
+2022-03-24 10:30:11,817 [main] INFO SFDC_TestV1 - Password Entered
+2022-03-24 10:30:47,049 [main] INFO SFDC_TestV1 - Login Test Passed
+2022-03-24 10:33:01,171 [main] INFO SFDC_TestV1 - User Name Provided
+2022-03-24 10:33:01,362 [main] INFO SFDC_TestV1 - Password Provided
+2022-03-24 10:33:22,934 [main] INFO SFDC_TestV1 - Login Passed
+2022-03-24 10:33:23,346 [main] INFO SFDC_TestV1 - User Name Provided
+2022-03-24 10:33:23,457 [main] INFO SFDC_TestV1 - Password Provided
+2022-03-24 10:33:46,547 [main] INFO SFDC_TestV1 - Login Passed
+2022-03-24 10:33:46,769 [main] INFO SFDC_TestV1 - User Name Provided
+2022-03-24 10:33:46,882 [main] INFO SFDC_TestV1 - Password Provided
+2022-03-24 10:34:25,289 [main] INFO SFDC_TestV1 - Login Passed
