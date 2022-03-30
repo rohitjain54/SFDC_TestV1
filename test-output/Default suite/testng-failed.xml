@@ -10,6 +10,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.SFDC_Bajaj.testCases.TC_LoginTest_002 -->
+      <class name="com.SFDC_Bajaj.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SFDC_Bajaj.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

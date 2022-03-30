@@ -24,22 +24,22 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-SFDC_TestV1" class="navigator-link">
+            <a href="#" class="navigator-link" panel-name="suite-SFDC_TestV1">
               <span class="suite-name border-failed">SFDC_TestV1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-SFDC_TestV1">
                     <span>C:\Users\Admin\eclipse-workspace\SFDC_TestV1\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-SFDC_TestV1">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-SFDC_TestV1">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-SFDC_TestV1">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-SFDC_TestV1">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SFDC_TestV1">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-SFDC_TestV1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-SFDC_TestV1">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,18 +103,8 @@
                     </span>
                     <div class="method-list-content failed suite-SFDC_TestV1">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SFDC_TestV1" title="com.SFDC_Bajaj.testCases.TC_LoginTest_002" class="method navigator-link" hash-for-method="loginDDT(3461csm@bflaf.com.fcb, Pune@202)">loginDDT(3461csm@bflaf.com.fcb, Pune@202)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SFDC_TestV1" title="com.SFDC_Bajaj.testCases.TC_LoginTest_002" class="method navigator-link" hash-for-method="loginDDT(3461csm@bflaf.com.fcb1, Pune@2021)">loginDDT(3461csm@bflaf.com.fcb1, Pune@2021)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SFDC_TestV1" title="com.SFDC_Bajaj.testCases.TC_LoginTest_002" class="method navigator-link" hash-for-method="loginDDT(3461csm@bflaf.com.fcb4, Pune@2024)">loginDDT(3461csm@bflaf.com.fcb4, Pune@2024)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_TestV1" title="com.SFDC_Bajaj.testCases.TC_LoginTest_001" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-SFDC_TestV1 -->
@@ -132,117 +122,21 @@
           <div class="suite-SFDC_TestV1-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.SFDC_Bajaj.testCases.TC_LoginTest_002</span>
+              <span class="class-name">com.SFDC_Bajaj.testCases.TC_LoginTest_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginDDT(3461csm@bflaf.com.fcb, Pune@202)">
-                  </a> <!-- loginDDT(3461csm@bflaf.com.fcb, Pune@202) -->
-                  <span class="method-name">loginDDT</span>
-                  <span class="parameters">(3461csm@bflaf.com.fcb, Pune@202)</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression /html/body/div[3]/div/ul/li/[15]/a because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;/html/body/div[3]/div/ul/li/[15]/a&apos; is not a valid XPath expression.
-  (Session info: chrome=99.0.4844.82)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;DESKTOP-9FSOJAE&apos;, ip: &apos;192.168.43.48&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbbd751ed3822ad80c3c80afa59d1eec, findElement {using=xpath, value=/html/body/div[3]/div/ul/li/[15]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50794/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dbbd751ed3822ad80c3c80afa59d1eec
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.SFDC_Bajaj.pageObjects.LoginPage.clickLogout(LoginPage.java:47)
-	at com.SFDC_Bajaj.testCases.TC_LoginTest_002.loginDDT(TC_LoginTest_002.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginDDT(3461csm@bflaf.com.fcb1, Pune@2021)">
-                  </a> <!-- loginDDT(3461csm@bflaf.com.fcb1, Pune@2021) -->
-                  <span class="method-name">loginDDT</span>
-                  <span class="parameters">(3461csm@bflaf.com.fcb1, Pune@2021)</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression /html/body/div[3]/div/ul/li/[15]/a because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;/html/body/div[3]/div/ul/li/[15]/a&apos; is not a valid XPath expression.
-  (Session info: chrome=99.0.4844.82)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;DESKTOP-9FSOJAE&apos;, ip: &apos;192.168.43.48&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbbd751ed3822ad80c3c80afa59d1eec, findElement {using=xpath, value=/html/body/div[3]/div/ul/li/[15]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50794/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dbbd751ed3822ad80c3c80afa59d1eec
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.SFDC_Bajaj.pageObjects.LoginPage.clickLogout(LoginPage.java:47)
-	at com.SFDC_Bajaj.testCases.TC_LoginTest_002.loginDDT(TC_LoginTest_002.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginDDT(3461csm@bflaf.com.fcb4, Pune@2024)">
-                  </a> <!-- loginDDT(3461csm@bflaf.com.fcb4, Pune@2024) -->
-                  <span class="method-name">loginDDT</span>
-                  <span class="parameters">(3461csm@bflaf.com.fcb4, Pune@2024)</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression /html/body/div[3]/div/ul/li/[15]/a because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;/html/body/div[3]/div/ul/li/[15]/a&apos; is not a valid XPath expression.
-  (Session info: chrome=99.0.4844.82)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;DESKTOP-9FSOJAE&apos;, ip: &apos;192.168.43.48&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbbd751ed3822ad80c3c80afa59d1eec, findElement {using=xpath, value=/html/body/div[3]/div/ul/li/[15]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50794/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dbbd751ed3822ad80c3c80afa59d1eec
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.SFDC_Bajaj.pageObjects.LoginPage.clickLogout(LoginPage.java:47)
-	at com.SFDC_Bajaj.testCases.TC_LoginTest_002.loginDDT(TC_LoginTest_002.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.SFDC_Bajaj.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:37)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -257,14 +151,14 @@ Session ID: dbbd751ed3822ad80c3c80afa59d1eec
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;SFDC_TestV1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SFDC_TestV1&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.SFDC_Bajaj.utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SFDCLogin Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.SFDC_Bajaj.testCases.TC_LoginTest_002&quot;/&gt;
+      &lt;class name=&quot;com.SFDC_Bajaj.testCases.TC_LoginTest_001&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SFDCLogin Test --&gt;
 &lt;/suite&gt; &lt;!-- SFDC_TestV1 --&gt;
@@ -304,19 +198,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginDDT')
-data.setCell(0, 2, 'com.SFDC_Bajaj.testCases.TC_LoginTest_002')
-data.setCell(0, 3, 38771);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginDDT')
-data.setCell(1, 2, 'com.SFDC_Bajaj.testCases.TC_LoginTest_002')
-data.setCell(1, 3, 23430);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginDDT')
-data.setCell(2, 2, 'com.SFDC_Bajaj.testCases.TC_LoginTest_002')
-data.setCell(2, 3, 22930);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.SFDC_Bajaj.testCases.TC_LoginTest_001')
+data.setCell(0, 3, 80440);
 window.suiteTableData['SFDC_TestV1']= { tableData: data, tableDiv: 'times-div-SFDC_TestV1'}
 return data;
 }
@@ -347,7 +233,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.SFDC_Bajaj.testCases.TC_LoginTest_002</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.SFDC_Bajaj.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -355,24 +241,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginDDT(3461csm@bflaf.com.fcb, Pune@202)</span>
-                <span class="method-start">25070 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginDDT(3461csm@bflaf.com.fcb4, Pune@2024)</span>
-                <span class="method-start">48185 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginDDT(3461csm@bflaf.com.fcb1, Pune@2021)</span>
-                <span class="method-start">71621 ms</span>
+                <span class="method-name">loginTest</span>
+                <span class="method-start">41626 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">110411 ms</span>
+                <span class="method-start">122195 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
